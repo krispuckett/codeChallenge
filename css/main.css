@@ -9,50 +9,55 @@ main {
   max-width: 960px;
   margin: auto;
   justify-content: center;
+
 }
 
-section.innersection {
-  padding: .875em;
-
+section.cardHolder {
+  margin: .875em;
 }
 
 #card1
 {
-	flex-basis : 33.3333%;
+	flex-basis: 33.3333%;
 
 }
 
 #card2
 {
-	flex-basis : 33.3333%;
+	flex-basis: 33.3333%;
 }
 
 #card3
 {
-	flex-basis : 33.3333%;
+	flex-basis: 33.3333%;
 }
 
 #card4
 {
-	flex-basis : 25%;
+	flex-basis: 25%;
 }
 
 #card5
 {
-	flex-basis : 25%;
+	flex-basis: 25%;
+
+}
+
+#cardBlank {
+  flex-basis: 25%;
 }
 
 @media (max-width : 800px)
 {
-	#card1, #card2, #card3, #card4, #card5{
-		flex-basis : 50%;
+	#card1, #card2, #card3, #card4, #card5, #cardBlank{
+		flex-basis: auto;
+
 	}
 }
 
 @media (max-width : 600px)
 {
-	#card1,#card2,#card3,#card4,#card5{
-		flex-basis : 100%;
+	#card1, #card2, #card3, #card4, #card5 {
+		flex-basis : auto;
 	}
-
 }
