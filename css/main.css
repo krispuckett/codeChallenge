@@ -1,19 +1,19 @@
+
 body {
   background-color: #edeff0;
 }
 
-main
-{
+main {
   display: flex;
-  flex-flow: row;
   flex-wrap: wrap;
   max-width: 960px;
   margin: auto;
-
+  justify-content: center;
 }
 
 section.innersection {
   padding: .875em;
+
 }
 
 #card1
@@ -53,8 +53,6 @@ section.innersection {
 {
 	#card1,#card2,#card3,#card4,#card5{
 		flex-basis : 100%;
-    float: none;
-   margin: 0 auto;
 	}
 
 }
